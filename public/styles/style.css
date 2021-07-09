@@ -113,3 +113,80 @@ nav{
     color: #555555;
     font-size: 1em;
 }
+
+.opcoes h2{
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 2.8125em;
+    line-height: 1.6875em;
+    color: #888888;
+    text-align: center;
+    margin-top: 0.8em;
+}
+
+.opcao{
+    width: 35%;
+    margin: auto;
+    opacity: 0.7;
+}
+
+.opcao p{
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 2.8125em;
+    line-height: 1.6875em;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.industrial{
+    background-image: url("../images/industrial.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+.modern{
+    background-image: url("../images/modern.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+.classic{
+    background-image: url("../images/classic.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+footer{
+    background-color: #333333;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3em 0;
+}
+
+.contato ul{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 1.6em;
+    text-align: justify;
+    color: #fff;
+    padding: 0;
+}
+
+.contato ul li{
+    margin: 1em 0;
+}
+
+.medias{
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 1.6em;
+    text-align: justify;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.social-medias{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
